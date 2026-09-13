@@ -1,176 +1,139 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Felix Seitzer | Projects</title>
-    <meta
-      name="description"
-      content="Selected projects by Felix Seitzer covering ARC-AGI reasoning experiments, photovoltaic forecasting, and the Smart Persistence Model."
-    >
-    <meta name="theme-color" content="#0b0d10">
-    <link rel="canonical" href="https://felix561.github.io/Felix_S/projects.html">
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Felix Seitzer">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="Felix Seitzer | Projects">
-    <meta property="og:description" content="Selected projects by Felix Seitzer covering ARC-AGI reasoning experiments, photovoltaic forecasting, and the Smart Persistence Model.">
-    <meta property="og:url" content="https://felix561.github.io/Felix_S/projects.html">
-    <meta property="og:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
-    <meta property="og:image:alt" content="Terminal-style preview graphic for Felix Seitzer's portfolio">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Felix Seitzer | Projects">
-    <meta name="twitter:description" content="Selected projects by Felix Seitzer covering ARC-AGI reasoning experiments, photovoltaic forecasting, and the Smart Persistence Model.">
-    <meta name="twitter:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
-    <link rel="stylesheet" href="terminal.css">
-    <script src="theme.js" defer></script>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-prefix">~/felix</div>
-      <ul class="nav-list">
-        <li><a href="index.html">about</a></li>
-        <li class="active"><a href="projects.html">projects</a></li>
-        <li><a href="watchlist.html">watch</a></li>
-        <li><a href="reading-list.html">papers</a></li>
-        <li><a href="blog.html">blog</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li class="lang-switch"><a href="de/projects.html">de</a></li>
-      </ul>
-      <button class="theme-toggle" type="button" aria-label="Toggle theme" onclick="toggleTheme(event)">
-        <span class="toggle-track"><span class="toggle-thumb"></span></span>
-      </button>
-    </nav>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Felix Seitzer | Projects</title>
+<meta content="Selected projects by Felix Seitzer covering ARC-AGI reasoning experiments, photovoltaic forecasting, and the Smart Persistence Model." name="description"/>
+<meta content="#0b0d10" name="theme-color"/>
+<link href="https://felix561.github.io/Felix_S/projects.html" rel="canonical"/>
+<link href="images/personal-icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/personal-icon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="images/personal-touch-icon.png" rel="apple-touch-icon"/>
+<meta content="website" property="og:type"/>
+<meta content="Felix Seitzer" property="og:site_name"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="Felix Seitzer | Projects" property="og:title"/>
+<meta content="Selected projects by Felix Seitzer covering ARC-AGI reasoning experiments, photovoltaic forecasting, and the Smart Persistence Model." property="og:description"/>
+<meta content="https://felix561.github.io/Felix_S/projects.html" property="og:url"/>
+<meta content="https://felix561.github.io/Felix_S/images/og-personal-v2.png" property="og:image"/>
+<meta content="Felix Seitzer – Artificial intelligence, with sculptural wireframe geometry" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Felix Seitzer | Projects" name="twitter:title"/>
+<meta content="Selected projects by Felix Seitzer covering ARC-AGI reasoning experiments, photovoltaic forecasting, and the Smart Persistence Model." name="twitter:description"/>
+<meta content="https://felix561.github.io/Felix_S/images/og-personal-v2.png" name="twitter:image"/>
+<link href="design.css" rel="stylesheet"/>
+<script defer="" src="theme.js"></script>
+</head>
+<body class="collection-page">
+<a class="skip-link" href="#main">Skip to content</a><nav aria-label="Main navigation" class="site-nav"><a class="brand" href="index.html"><svg aria-hidden="true" class="brand-mark" fill="none" stroke="currentColor" stroke-width="1.15" viewbox="0 0 32 32"><path d="M16 2 29 9.5v13L16 30 3 22.5v-13Z M3 9.5 16 17l13-7.5 M16 17v13 M16 2v15 M3 22.5l13-7.5 13 7.5"></path></svg><span class="brand-name">Felix Seitzer</span></a><ul class="nav-list"><li class=""><a href="index.html">About</a></li><li class="active"><a aria-current="page" href="projects.html">Projects</a></li><li class=""><a href="watchlist.html">Watch</a></li><li class=""><a href="reading-list.html">Papers</a></li><li class=""><a href="blog.html">Blog</a></li><li class=""><a href="contact.html">Contact</a></li><li class="lang-switch"><a aria-label="Deutsche Version" href="de/projects.html" lang="de">DE</a></li></ul><button aria-label="Toggle color theme" class="theme-toggle" onclick="toggleTheme(event)" type="button"><span class="toggle-track"></span></button></nav>
+<main id="main"><header class="page-header"><p class="eyebrow">Felix Seitzer / Projects</p><h1>Selected projects.</h1><p>Experiments, practical work, and things I have built.</p></header>
 
-    <main>
-      <section class="boot-header" aria-label="Project scan output">
-        <div class="boot-line">[ <span class="ok">OK</span> ] Reading repository index</div>
-        <div class="boot-line">[ <span class="ok">OK</span> ] Loading selected work</div>
-        <div class="boot-line">[ <span class="warn">INFO</span> ] 3 entries indexed for display</div>
-      </section>
-
-      <section>
-        <div class="section-cmd">
-          <span class="dollar">$</span>
-          <span class="cmd">ls</span>
-          <span class="flag">-lt</span>
-          <span class="arg">./projects | head -3</span>
-        </div>
-
-        <div class="intro-block">
-          <p>
+<section>
+<h2 class="section-label">Selected work</h2>
+<div class="intro-block">
+<p>
             Here are some of the bigger projects I have worked on and found especially interesting.
           </p>
-        </div>
-      </section>
-
-      <section>
-        <div class="section-cmd">
-          <span class="dollar">$</span>
-          <span class="cmd">open</span>
-          <span class="arg">entries.log</span>
-        </div>
-
-        <div class="entry-list">
-          <article class="entry" data-entry data-open="true">
-            <button class="entry-header" type="button" data-entry-toggle aria-expanded="true">
-              <div class="entry-index">001</div>
-              <div class="entry-title-group">
-                <div class="entry-meta">benchmark / reasoning</div>
-                <h2 class="entry-title">ARC-AGI / Reasoning Experiments</h2>
-                <p class="entry-summary">
+</div>
+</section>
+<section>
+<h2 class="section-label">Projects</h2>
+<div class="entry-list">
+<article class="entry" data-entry="" data-open="true">
+<button aria-expanded="true" class="entry-header" data-entry-toggle="" type="button">
+<div class="entry-index">001</div>
+<div class="entry-title-group">
+<div class="entry-meta">benchmark / reasoning</div>
+<h2 class="entry-title">ARC-AGI / Reasoning Experiments</h2>
+<p class="entry-summary">
                   Reproducible work on ARC-AGI tasks with Tiny Recursive Models, test-time methods, and supporting dataset tooling.
                 </p>
-              </div>
-              <div class="entry-badges">
-                <span class="entry-badge year">2025-2026</span>
-                <span class="entry-badge">python</span>
-                <span class="entry-badge">pytorch</span>
-                <span class="entry-badge">arc-agi</span>
-              </div>
-              <div class="entry-chevron">&gt;</div>
-            </button>
-            <div class="entry-body">
-              <ul class="entry-points">
-                <li>Worked on ARC-AGI tasks with an emphasis on reasoning behavior, reproducibility, and evaluation workflows.</li>
-                <li>Explored test-time methods such as fine-tuning, reranking, and comparison of multiple answer candidates.</li>
-                <li>Built PyTorch preprocessing and dataset-loading utilities for benchmark experiments.</li>
-              </ul>
-              <div class="entry-links">
-                <a href="https://arcprize.org/arc-agi" target="_blank" rel="noreferrer">arc-agi benchmark</a>
-                <a href="https://github.com/Felix561/trm-arc-experiments" target="_blank" rel="noreferrer">trm-arc-experiments</a>
-                <a href="https://github.com/Felix561/mdlarc-arc-experiments" target="_blank" rel="noreferrer">mdlarc-arc-experiments</a>
-                <a href="https://github.com/Felix561/arc-dataset-loaders" target="_blank" rel="noreferrer">arc-dataset-loaders</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="entry" data-entry>
-            <button class="entry-header" type="button" data-entry-toggle aria-expanded="false">
-              <div class="entry-index">002</div>
-              <div class="entry-title-group">
-                <div class="entry-meta">thesis / forecasting</div>
-                <h2 class="entry-title">Bachelor Thesis / Photovoltaic Power Forecasting</h2>
-                <p class="entry-summary">
+</div>
+<div class="entry-badges">
+<span class="entry-badge year">2025-2026</span>
+<span class="entry-badge">python</span>
+<span class="entry-badge">pytorch</span>
+<span class="entry-badge">arc-agi</span>
+</div>
+<div class="entry-chevron">&gt;</div>
+</button>
+<div class="entry-body">
+<ul class="entry-points">
+<li>Worked on ARC-AGI tasks with an emphasis on reasoning behavior, reproducibility, and evaluation workflows.</li>
+<li>Explored test-time methods such as fine-tuning, reranking, and comparison of multiple answer candidates.</li>
+<li>Built PyTorch preprocessing and dataset-loading utilities for benchmark experiments.</li>
+</ul>
+<div class="entry-links">
+<a href="https://arcprize.org/arc-agi" rel="noreferrer" target="_blank">arc-agi benchmark</a>
+<a href="https://github.com/Felix561/trm-arc-experiments" rel="noreferrer" target="_blank">trm-arc-experiments</a>
+<a href="https://github.com/Felix561/mdlarc-arc-experiments" rel="noreferrer" target="_blank">mdlarc-arc-experiments</a>
+<a href="https://github.com/Felix561/arc-dataset-loaders" rel="noreferrer" target="_blank">arc-dataset-loaders</a>
+</div>
+</div>
+</article>
+<article class="entry" data-entry="">
+<button aria-expanded="false" class="entry-header" data-entry-toggle="" type="button">
+<div class="entry-index">002</div>
+<div class="entry-title-group">
+<div class="entry-meta">thesis / forecasting</div>
+<h2 class="entry-title">Bachelor Thesis / Photovoltaic Power Forecasting</h2>
+<p class="entry-summary">
                   Deep-learning-based 15-minute PV forecasting using sky images, historical power data, and Smart Persistence inputs.
                 </p>
-              </div>
-              <div class="entry-badges">
-                <span class="entry-badge year">2023-2024</span>
-                <span class="entry-badge">cnn-mlp</span>
-                <span class="entry-badge">vision</span>
-                <span class="entry-badge">energy</span>
-              </div>
-              <div class="entry-chevron">&gt;</div>
-            </button>
-            <div class="entry-body">
-              <ul class="entry-points">
-                <li>Developed a CNN-MLP pipeline for short-term PV power forecasting in 15-minute intervals.</li>
-                <li>Combined sky imagery, historical PV output, and structured Smart Persistence features as model inputs.</li>
-                <li>Built and evaluated a low-cost Raspberry Pi sky camera setup against benchmark baselines.</li>
-              </ul>
-              <div class="entry-links">
-                <a href="https://github.com/Felix561/Photovoltaic-power-forecasting-using-deep-learning" target="_blank" rel="noreferrer">pv-forecasting repository</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="entry" data-entry>
-            <button class="entry-header" type="button" data-entry-toggle aria-expanded="false">
-              <div class="entry-index">003</div>
-              <div class="entry-title-group">
-                <div class="entry-meta">open source / baseline</div>
-                <h2 class="entry-title">Open Source / Smart Persistence Model</h2>
-                <p class="entry-summary">
+</div>
+<div class="entry-badges">
+<span class="entry-badge year">2023-2024</span>
+<span class="entry-badge">cnn-mlp</span>
+<span class="entry-badge">vision</span>
+<span class="entry-badge">energy</span>
+</div>
+<div class="entry-chevron">&gt;</div>
+</button>
+<div class="entry-body">
+<ul class="entry-points">
+<li>Developed a CNN-MLP pipeline for short-term PV power forecasting in 15-minute intervals.</li>
+<li>Combined sky imagery, historical PV output, and structured Smart Persistence features as model inputs.</li>
+<li>Built and evaluated a low-cost Raspberry Pi sky camera setup against benchmark baselines.</li>
+</ul>
+<div class="entry-links">
+<a href="https://github.com/Felix561/Photovoltaic-power-forecasting-using-deep-learning" rel="noreferrer" target="_blank">pv-forecasting repository</a>
+</div>
+</div>
+</article>
+<article class="entry" data-entry="">
+<button aria-expanded="false" class="entry-header" data-entry-toggle="" type="button">
+<div class="entry-index">003</div>
+<div class="entry-title-group">
+<div class="entry-meta">open source / baseline</div>
+<h2 class="entry-title">Open Source / Smart Persistence Model</h2>
+<p class="entry-summary">
                   A lightweight Python reference implementation for short-term PV forecasting benchmarks.
                 </p>
-              </div>
-              <div class="entry-badges">
-                <span class="entry-badge year">2024</span>
-                <span class="entry-badge">python</span>
-                <span class="entry-badge">baseline</span>
-                <span class="entry-badge">pv</span>
-              </div>
-              <div class="entry-chevron">&gt;</div>
-            </button>
-            <div class="entry-body">
-              <ul class="entry-points">
-                <li>Implemented a clean reference model for photovoltaic forecasting experiments.</li>
-                <li>Designed the repository to support comparability, reuse, and straightforward benchmarking.</li>
-                <li>Useful as a baseline alongside more complex learning-based forecasting pipelines.</li>
-              </ul>
-              <div class="entry-links">
-                <a href="https://github.com/Felix561/smart-persistence-model" target="_blank" rel="noreferrer">smart-persistence-model</a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <div class="footer-spacer"></div>
-    </main>
-  </body>
+</div>
+<div class="entry-badges">
+<span class="entry-badge year">2024</span>
+<span class="entry-badge">python</span>
+<span class="entry-badge">baseline</span>
+<span class="entry-badge">pv</span>
+</div>
+<div class="entry-chevron">&gt;</div>
+</button>
+<div class="entry-body">
+<ul class="entry-points">
+<li>Implemented a clean reference model for photovoltaic forecasting experiments.</li>
+<li>Designed the repository to support comparability, reuse, and straightforward benchmarking.</li>
+<li>Useful as a baseline alongside more complex learning-based forecasting pipelines.</li>
+</ul>
+<div class="entry-links">
+<a href="https://github.com/Felix561/smart-persistence-model" rel="noreferrer" target="_blank">smart-persistence-model</a>
+</div>
+</div>
+</article>
+</div>
+</section>
+<div class="footer-spacer"></div>
+<footer class="site-footer"><span>© 2026 Felix Seitzer</span><span>Regensburg, Germany <span aria-hidden="true">↗</span></span></footer></main>
+</body>
 </html>

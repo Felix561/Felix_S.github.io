@@ -1,89 +1,38 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Felix Seitzer | Blog</title>
-    <meta
-      name="description"
-      content="Terminal-style blog section for future writing by Felix Seitzer."
-    >
-    <meta name="theme-color" content="#0b0d10">
-    <link rel="canonical" href="https://felix561.github.io/Felix_S/blog.html">
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Felix Seitzer">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="Felix Seitzer | Blog">
-    <meta property="og:description" content="Terminal-style blog section for future writing by Felix Seitzer.">
-    <meta property="og:url" content="https://felix561.github.io/Felix_S/blog.html">
-    <meta property="og:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
-    <meta property="og:image:alt" content="Terminal-style preview graphic for Felix Seitzer's portfolio">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Felix Seitzer | Blog">
-    <meta name="twitter:description" content="Terminal-style blog section for future writing by Felix Seitzer.">
-    <meta name="twitter:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
-    <link rel="stylesheet" href="terminal.css">
-    <script src="theme.js" defer></script>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-prefix">~/felix</div>
-      <ul class="nav-list">
-        <li><a href="index.html">about</a></li>
-        <li><a href="projects.html">projects</a></li>
-        <li><a href="watchlist.html">watch</a></li>
-        <li><a href="reading-list.html">papers</a></li>
-        <li class="active"><a href="blog.html">blog</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li class="lang-switch"><a href="de/blog.html">de</a></li>
-      </ul>
-      <button class="theme-toggle" type="button" aria-label="Toggle theme" onclick="toggleTheme(event)">
-        <span class="toggle-track"><span class="toggle-thumb"></span></span>
-      </button>
-    </nav>
-
-    <main>
-      <section class="boot-header" aria-label="Blog output">
-        <div class="boot-line">[ <span class="ok">OK</span> ] mounted blog index</div>
-        <div class="boot-line">[ <span class="ok">OK</span> ] no published posts yet</div>
-        <div class="boot-line">[ <span class="warn">INFO</span> ] writing mode: draft</div>
-      </section>
-
-      <section>
-        <div class="section-cmd">
-          <span class="dollar">$</span>
-          <span class="cmd">ls</span>
-          <span class="flag">-lt</span>
-          <span class="arg">./posts/</span>
-        </div>
-
-        <div class="blog-list">
-          <div class="blog-row muted">
-            <span class="blog-index">00</span>
-            <span class="blog-title">[ coming soon ]</span>
-            <span class="blog-date">--</span>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="section-cmd">
-          <span class="dollar">$</span>
-          <span class="cmd">cat</span>
-          <span class="arg">notes.txt</span>
-        </div>
-
-        <div class="block">
-          <p>
-            Coming soon. I want to take a bit more time with this section and only publish real posts once they are ready.
-          </p>
-        </div>
-      </section>
-
-      <div class="footer-spacer"></div>
-    </main>
-  </body>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Felix Seitzer | Blog</title>
+<meta content="Personal perspectives on intelligence, abstraction, and the questions that keep me curious." name="description"/>
+<meta content="#0b0d10" name="theme-color"/>
+<link href="https://felix561.github.io/Felix_S/blog.html" rel="canonical"/>
+<link href="images/personal-icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/personal-icon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="images/personal-touch-icon.png" rel="apple-touch-icon"/>
+<meta content="website" property="og:type"/>
+<meta content="Felix Seitzer" property="og:site_name"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="Felix Seitzer | Blog" property="og:title"/>
+<meta content="Personal perspectives on intelligence, abstraction, and the questions that keep me curious." property="og:description"/>
+<meta content="https://felix561.github.io/Felix_S/blog.html" property="og:url"/>
+<meta content="https://felix561.github.io/Felix_S/images/og-personal-v2.png" property="og:image"/>
+<meta content="Felix Seitzer – Artificial intelligence, with sculptural wireframe geometry" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Felix Seitzer | Blog" name="twitter:title"/>
+<meta content="Personal perspectives on intelligence, abstraction, and the questions that keep me curious." name="twitter:description"/>
+<meta content="https://felix561.github.io/Felix_S/images/og-personal-v2.png" name="twitter:image"/>
+<link href="design.css" rel="stylesheet"/>
+<script defer="" src="theme.js"></script>
+</head>
+<body class="collection-page">
+<a class="skip-link" href="#main">Skip to content</a><nav aria-label="Main navigation" class="site-nav"><a class="brand" href="index.html"><svg aria-hidden="true" class="brand-mark" fill="none" stroke="currentColor" stroke-width="1.15" viewbox="0 0 32 32"><path d="M16 2 29 9.5v13L16 30 3 22.5v-13Z M3 9.5 16 17l13-7.5 M16 17v13 M16 2v15 M3 22.5l13-7.5 13 7.5"></path></svg><span class="brand-name">Felix Seitzer</span></a><ul class="nav-list"><li class=""><a href="index.html">About</a></li><li class=""><a href="projects.html">Projects</a></li><li class=""><a href="watchlist.html">Watch</a></li><li class=""><a href="reading-list.html">Papers</a></li><li class="active"><a aria-current="page" href="blog.html">Blog</a></li><li class=""><a href="contact.html">Contact</a></li><li class="lang-switch"><a aria-label="Deutsche Version" href="de/blog.html" lang="de">DE</a></li></ul><button aria-label="Toggle color theme" class="theme-toggle" onclick="toggleTheme(event)" type="button"><span class="toggle-track"></span></button></nav>
+<main id="main"><header class="page-header"><p class="eyebrow">Felix Seitzer / Blog</p><h1>Notes &amp; perspectives.</h1><p>Personal perspectives on intelligence, abstraction, and the questions that keep me curious.</p></header><a class="essay-card" href="posts/understanding-and-deep-abstractions.html">
+<div><div class="eyebrow">My first essay · Personal perspective</div>
+<h2>Understanding requires constraint-respecting reasoning with deep abstractions.</h2>
+<p>My perspective on the current AI paradigm: ARC-AGI, deep abstractions, and the role of constraints.</p>
+<span class="read-link">Read the essay <span aria-hidden="true">↗</span></span></div>
+<img alt="Branching abstractions inside a curved wireframe, with a highlighted path through its constraints" height="350" loading="lazy" src="images/positioning/epistemic-tree-cover.webp" width="500"/></a><p class="blog-note">This essay presents my personal perspective and research interests. It is not a peer-reviewed publication, and some arguments are intentionally exploratory.</p><footer class="site-footer"><span>© 2026 Felix Seitzer</span><span>Regensburg, Germany <span aria-hidden="true">↗</span></span></footer></main>
+</body>
 </html>

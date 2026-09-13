@@ -1,199 +1,155 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Felix Seitzer | About</title>
-    <meta
-      name="description"
-      content="CLI-style personal portfolio of Felix Seitzer, M.Sc. Artificial Intelligence student focusing on reasoning systems, ARC-AGI, and applied deep learning."
-    >
-    <meta name="theme-color" content="#0b0d10">
-    <link rel="canonical" href="https://felix561.github.io/Felix_S/">
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Felix Seitzer">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="Felix Seitzer | About">
-    <meta property="og:description" content="CLI-style personal portfolio of Felix Seitzer, M.Sc. Artificial Intelligence student focusing on reasoning systems, ARC-AGI, and applied deep learning.">
-    <meta property="og:url" content="https://felix561.github.io/Felix_S/">
-    <meta property="og:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
-    <meta property="og:image:alt" content="Terminal-style preview graphic for Felix Seitzer's portfolio">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Felix Seitzer | About">
-    <meta name="twitter:description" content="CLI-style personal portfolio of Felix Seitzer, M.Sc. Artificial Intelligence student focusing on reasoning systems, ARC-AGI, and applied deep learning.">
-    <meta name="twitter:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
-    <link rel="stylesheet" href="terminal.css">
-    <script src="theme.js" defer></script>
-  </head>
-  <body>
-    <nav>
-      <div class="nav-prefix">~/felix</div>
-      <ul class="nav-list">
-        <li class="active"><a href="index.html">about</a></li>
-        <li><a href="projects.html">projects</a></li>
-        <li><a href="watchlist.html">watch</a></li>
-        <li><a href="reading-list.html">papers</a></li>
-        <li><a href="blog.html">blog</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li class="lang-switch"><a href="de/index.html">de</a></li>
-      </ul>
-      <button class="theme-toggle" type="button" aria-label="Toggle theme" onclick="toggleTheme(event)">
-        <span class="toggle-track"><span class="toggle-thumb"></span></span>
-      </button>
-    </nav>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Felix Seitzer | About</title>
+<meta content="Personal portfolio of Felix Seitzer, M.Sc. Artificial Intelligence student focusing on reasoning systems, ARC-AGI, and applied deep learning." name="description"/>
+<meta content="#0b0d10" name="theme-color"/>
+<link href="https://felix561.github.io/Felix_S/" rel="canonical"/>
+<link href="images/personal-icon.svg" rel="icon" type="image/svg+xml"/>
+<link href="images/personal-icon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="images/personal-touch-icon.png" rel="apple-touch-icon"/>
+<meta content="website" property="og:type"/>
+<meta content="Felix Seitzer" property="og:site_name"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="Felix Seitzer | About" property="og:title"/>
+<meta content="Personal portfolio of Felix Seitzer, M.Sc. Artificial Intelligence student focusing on reasoning systems, ARC-AGI, and applied deep learning." property="og:description"/>
+<meta content="https://felix561.github.io/Felix_S/" property="og:url"/>
+<meta content="https://felix561.github.io/Felix_S/images/og-personal-v2.png" property="og:image"/>
+<meta content="Felix Seitzer – Artificial intelligence, with sculptural wireframe geometry" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Felix Seitzer | About" name="twitter:title"/>
+<meta content="Personal portfolio of Felix Seitzer, M.Sc. Artificial Intelligence student focusing on reasoning systems, ARC-AGI, and applied deep learning." name="twitter:description"/>
+<meta content="https://felix561.github.io/Felix_S/images/og-personal-v2.png" name="twitter:image"/>
+<link href="design.css" rel="stylesheet"/>
+<script defer="" src="theme.js"></script>
+<script defer="True" src="geometry.js?v=3"></script></head>
+<body class="home-page">
+<a class="skip-link" href="#main">Skip to content</a><nav aria-label="Main navigation" class="site-nav"><a class="brand" href="index.html"><svg aria-hidden="true" class="brand-mark" fill="none" stroke="currentColor" stroke-width="1.15" viewbox="0 0 32 32"><path d="M16 2 29 9.5v13L16 30 3 22.5v-13Z M3 9.5 16 17l13-7.5 M16 17v13 M16 2v15 M3 22.5l13-7.5 13 7.5"></path></svg><span class="brand-name">Felix Seitzer</span></a><ul class="nav-list"><li class="active"><a aria-current="page" href="index.html">About</a></li><li class=""><a href="projects.html">Projects</a></li><li class=""><a href="watchlist.html">Watch</a></li><li class=""><a href="reading-list.html">Papers</a></li><li class=""><a href="blog.html">Blog</a></li><li class=""><a href="contact.html">Contact</a></li><li class="lang-switch"><a aria-label="Deutsche Version" href="de/index.html" lang="de">DE</a></li></ul><button aria-label="Toggle color theme" class="theme-toggle" onclick="toggleTheme(event)" type="button"><span class="toggle-track"></span></button></nav>
+<main id="main"><section aria-labelledby="home-title" class="home-hero"><canvas aria-hidden="true" class="geometry"></canvas><div class="hero-copy">
+<p class="eyebrow">Felix Seitzer · Artificial intelligence</p>
+<h1 id="home-title">Personal Page</h1>
+<p class="hero-description">M.Sc. student at OTH Amberg-Weiden. Interested in reasoning, abstraction, and systems that can adapt to something new.</p>
+<div class="hero-actions"><a class="primary-link" href="projects.html">Explore my work <span aria-hidden="true">↗</span></a><a href="blog.html">Thoughts &amp; essays <span aria-hidden="true">→</span></a></div></div>
+<button aria-pressed="false" class="geometry-pause" type="button">Pause motion</button></section><section><h2 class="section-label">Latest writing</h2><a class="essay-card" href="posts/understanding-and-deep-abstractions.html">
+<div><div class="eyebrow">My first essay · Personal perspective</div>
+<h2>Understanding requires constraint-respecting reasoning with deep abstractions.</h2>
+<p>My perspective on the current AI paradigm: ARC-AGI, deep abstractions, and the role of constraints.</p>
+<span class="read-link">Read the essay <span aria-hidden="true">↗</span></span></div>
+<img alt="Branching abstractions inside a curved wireframe, with a highlighted path through its constraints" height="350" loading="lazy" src="images/positioning/epistemic-tree-cover.webp" width="500"/></a></section>
 
-    <main>
-      <section class="boot-header" aria-label="Session output">
-        <div class="boot-line">[ <span class="ok">OK</span> ] Starting session -- <span class="path">felix-seitzer</span></div>
-        <div class="boot-line">[ <span class="ok">OK</span> ] Loading portfolio index</div>
-        <div class="boot-line">[ <span class="warn">INFO</span> ] Last login: <span class="js-last-login"></span></div>
-      </section>
-
-      <section>
-        <div class="section-cmd">
-          <span class="dollar">$</span>
-          <span class="cmd">whois</span>
-          <span class="arg">felix</span>
-        </div>
-
-        <div class="block who-block">
-          <div class="who-photo-col">
-            <div class="photo-frame">
-              <img class="profile-photo" src="images/headshot_circle.png" alt="Portrait of Felix Seitzer">
-            </div>
-          </div>
-
-          <div class="who-text-col">
-            <div class="who-field">
-              <span class="who-key">name</span>
-              <span class="who-sep">:</span>
-              <span class="who-val bright">Felix Seitzer</span>
-            </div>
-            <div class="who-field">
-              <span class="who-key">role</span>
-              <span class="who-sep">:</span>
-              <span class="who-val">M.Sc. Artificial Intelligence student</span>
-            </div>
-            <div class="who-field">
-              <span class="who-key">program</span>
-              <span class="who-sep">:</span>
-              <span class="who-val">OTH Amberg-Weiden</span>
-            </div>
-            <div class="who-field">
-              <span class="who-key">focus</span>
-              <span class="who-sep">:</span>
-              <span class="who-val accent">reasoning systems, ARC-AGI, test-time methods</span>
-            </div>
-            <div class="who-field">
-              <span class="who-key">stack</span>
-              <span class="who-sep">:</span>
-              <span class="who-val">Python, PyTorch, OCR, NLP, RAG, computer vision</span>
-            </div>
-            <div class="who-field">
-              <span class="who-key">base</span>
-              <span class="who-sep">:</span>
-              <span class="who-val">Regensburg, Bavaria, Germany</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="section-cmd">
-          <span class="dollar">$</span>
-          <span class="cmd">cat</span>
-          <span class="arg">about.txt</span>
-        </div>
-
-        <div class="block">
-          <p>
-            I am a third-semester M.Sc. Artificial Intelligence student at OTH Amberg-Weiden with a practical focus on deep learning, evaluation workflows, and benchmark-oriented work.
+<section>
+<h2 class="section-label">At a glance</h2>
+<div class="block who-block">
+<div class="who-photo-col">
+<div class="photo-frame">
+<img alt="Portrait of Felix Seitzer" class="profile-photo" src="images/headshot_circle.png"/>
+</div>
+</div>
+<div class="who-text-col">
+<div class="who-field">
+<span class="who-key">name</span>
+<span class="who-sep">:</span>
+<span class="who-val bright">Felix Seitzer</span>
+</div>
+<div class="who-field">
+<span class="who-key">role</span>
+<span class="who-sep">:</span>
+<span class="who-val">M.Sc. Artificial Intelligence student</span>
+</div>
+<div class="who-field">
+<span class="who-key">program</span>
+<span class="who-sep">:</span>
+<span class="who-val">OTH Amberg-Weiden</span>
+</div>
+<div class="who-field">
+<span class="who-key">focus</span>
+<span class="who-sep">:</span>
+<span class="who-val accent">reasoning systems, ARC-AGI, test-time methods</span>
+</div>
+<div class="who-field">
+<span class="who-key">stack</span>
+<span class="who-sep">:</span>
+<span class="who-val">Python, PyTorch, OCR, NLP, RAG, computer vision</span>
+</div>
+<div class="who-field">
+<span class="who-key">base</span>
+<span class="who-sep">:</span>
+<span class="who-val">Regensburg, Bavaria, Germany</span>
+</div>
+</div>
+</div>
+</section>
+<section class="about-body">
+<h2 class="section-label">A little about me</h2>
+<div class="block">
+<p>
+            I am a fifth-semester M.Sc. Artificial Intelligence student at OTH Amberg-Weiden with a practical focus on deep learning, evaluation workflows, and benchmark-oriented work.
           </p>
-          <p>
+<p>
             My current interests include reasoning systems, transformer-based approaches, and test-time computation methods, especially in the context of the
-            <a href="https://arcprize.org/arc-agi" target="_blank" rel="noreferrer">ARC-AGI benchmark</a>.
+            <a href="https://arcprize.org/arc-agi" rel="noreferrer" target="_blank">ARC-AGI benchmark</a>.
           </p>
-          <p>
-            Alongside my studies, I worked at <a href="https://tiki-institut.com/" target="_blank" rel="noreferrer">TIKI GmbH</a> and
-            <a href="https://www.dexcon.tech/" target="_blank" rel="noreferrer">deXcon GmbH</a>. My broader hands-on work includes OCR, language processing, small RAG applications, and computer vision. My academic background started in engineering through a B.Eng. in Renewable Energy Engineering rather than classical computer science.
+<p>
+            Alongside my studies, I worked as an AI engineer on image classification at <a href="https://tiki-institut.com/" rel="noreferrer" target="_blank">TIKI GmbH</a>, and also worked at
+            <a href="https://www.dexcon.tech/" rel="noreferrer" target="_blank">deXcon GmbH</a>. My broader hands-on work includes OCR, language processing, small RAG applications, and computer vision. My academic background started in engineering through a B.Eng. in Renewable Energy Engineering rather than classical computer science.
           </p>
-          <p>
-            Personal note: I am honestly a bit of a <a href="https://www.youtube.com/c/MachineLearningStreetTalk" target="_blank" rel="noreferrer">Machine Learning Street Talk (MLST)</a> fanboy. I have watched almost every episode, and those long technical deep-dive conversations really shaped how I think about machine learning research.
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <div class="section-cmd">
-          <span class="dollar">$</span>
-          <span class="cmd">cat</span>
-          <span class="arg">links.txt</span>
-        </div>
-
-        <div class="block">
-          <div class="contact-row">
-            <a class="contact-chip" href="mailto:f.seitzer@oth-aw.de">
-              <span class="chip-symbol">@</span>
-              <span>email</span>
-            </a>
-            <a class="contact-chip" href="https://github.com/Felix561" target="_blank" rel="noreferrer">
-              <span class="chip-symbol">*</span>
-              <span>github</span>
-            </a>
-            <a class="contact-chip" href="https://www.linkedin.com/in/felix-seitzer-060bb826a/" target="_blank" rel="noreferrer">
-              <span class="chip-symbol">*</span>
-              <span>linkedin</span>
-            </a>
-            <a class="contact-chip" href="watchlist.html">
-              <span class="chip-symbol">*</span>
-              <span>watch</span>
-            </a>
-            <a class="contact-chip" href="reading-list.html">
-              <span class="chip-symbol">*</span>
-              <span>papers</span>
-            </a>
-            <a class="contact-chip" href="blog.html">
-              <span class="chip-symbol">*</span>
-              <span>blog</span>
-            </a>
-            <a class="contact-chip" href="projects.html">
-              <span class="chip-symbol">*</span>
-              <span>projects</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="section-cmd">
-          <span class="dollar">$</span>
-          <span class="cmd">tail</span>
-          <span class="flag">-n 2</span>
-          <span class="arg">updates.log</span>
-        </div>
-
-        <div class="block log-block">
-          <div class="log-entry">
-            <div class="log-ts">2026-03</div>
-            <div class="log-lvl ok">NEW</div>
-            <div class="log-msg">Launched a CLI-style portfolio for selected projects, notes, and public links.</div>
-          </div>
-          <div class="log-entry">
-            <div class="log-ts">current</div>
-            <div class="log-lvl">FOCUS</div>
-            <div class="log-msg">Reasoning experiments, test-time methods, and practical workflows around OCR, NLP, and RAG.</div>
-          </div>
-        </div>
-      </section>
-
-      <div class="site-credit">
-        Terminal-style portfolio idea inspired by <a href="https://mariya.fyi/contact" target="_blank" rel="noreferrer">mariya.fyi/contact</a>.
-      </div>
-
-      <div class="footer-spacer"></div>
-    </main>
-  </body>
+</div>
+</section>
+<section>
+<h2 class="section-label">Elsewhere &amp; around here</h2>
+<div class="block">
+<div class="contact-row">
+<a class="contact-chip" href="mailto:f.seitzer@oth-aw.de">
+<span class="chip-symbol">@</span>
+<span>email</span>
+</a>
+<a class="contact-chip" href="https://github.com/Felix561" rel="noreferrer" target="_blank">
+<span class="chip-symbol">*</span>
+<span>github</span>
+</a>
+<a class="contact-chip" href="https://www.linkedin.com/in/felix-seitzer-060bb826a/" rel="noreferrer" target="_blank">
+<span class="chip-symbol">*</span>
+<span>linkedin</span>
+</a>
+<a class="contact-chip" href="watchlist.html">
+<span class="chip-symbol">*</span>
+<span>watch</span>
+</a>
+<a class="contact-chip" href="reading-list.html">
+<span class="chip-symbol">*</span>
+<span>papers</span>
+</a>
+<a class="contact-chip" href="blog.html">
+<span class="chip-symbol">*</span>
+<span>blog</span>
+</a>
+<a class="contact-chip" href="projects.html">
+<span class="chip-symbol">*</span>
+<span>projects</span>
+</a>
+</div>
+</div>
+</section>
+<section>
+<h2 class="section-label">Recent notes</h2>
+<div class="block log-block">
+<div class="log-entry">
+<div class="log-ts">2026-03</div>
+<div class="log-lvl ok">NEW</div>
+<div class="log-msg">Launched a CLI-style portfolio for selected projects, notes, and public links.</div>
+</div>
+<div class="log-entry">
+<div class="log-ts">current</div>
+<div class="log-lvl">FOCUS</div>
+<div class="log-msg">Reasoning experiments, test-time methods, and practical workflows around OCR, NLP, and RAG.</div>
+</div>
+</div>
+</section>
+<div class="site-credit">Visual inspiration: <a href="https://afterlabs.ai/" rel="noreferrer" target="_blank">After Labs</a>.</div>
+<div class="footer-spacer"></div>
+<footer class="site-footer"><span>© 2026 Felix Seitzer</span><span>Regensburg, Germany <span aria-hidden="true">↗</span></span></footer></main>
+</body>
 </html>

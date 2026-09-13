@@ -1,5 +1,6 @@
 (function () {
-  const saved = localStorage.getItem("theme");
+  let saved;
+  try { saved = localStorage.getItem("theme"); } catch (_) { /* Storage is optional. */ }
   if (saved === "light") {
     document.documentElement.setAttribute("data-theme", "light");
   }
@@ -14,7 +15,7 @@ function toggleTheme(event) {
   const root = document.documentElement;
   const isLight = root.getAttribute("data-theme") === "light";
   root.setAttribute("data-theme", isLight ? "dark" : "light");
-  localStorage.setItem("theme", isLight ? "dark" : "light");
+  try { localStorage.setItem("theme", isLight ? "dark" : "light"); } catch (_) { /* Storage is optional. */ }
 }
 
 function formatLastLogin() {
@@ -45,6 +46,13 @@ function initializeEntries() {
     const toggle = entry.querySelector("[data-entry-toggle]");
     if (!toggle) {
       return;
+    }
+
+    entry.classList.add("enhanced");
+    const body = entry.querySelector(".entry-body");
+    if (body) {
+      body.id = body.id || `project-details-${index + 1}`;
+      toggle.setAttribute("aria-controls", body.id);
     }
 
     const initiallyOpen = entry.getAttribute("data-open") === "true" || index === 0;
